@@ -1,0 +1,38 @@
+{
+  "name": "xferyfoodserver",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "backham chakma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bull": "^4.15.1",
+    "cashfree-pg": "^4.1.2",
+    "cors": "^2.8.5",
+    "cryptr": "^6.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.0",
+    "firebase-admin": "^12.1.0",
+    "geolib": "^3.3.4",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.3.4",
+    "multer": "^1.4.5-lts.1",
+    "node-appwrite": "^13.0.0",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "otplib": "^12.0.1",
+    "razorpay": "^2.9.4",
+    "redis": "^4.6.14",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  }
+}
